@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0;
+  background-image: url('./images/dog.jpg');
+  background-size: cover; /* Cover the entire area */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures it takes at least the full viewport height */
+  font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto; /* Allow for scrolling */
+}
+
+/* Full-screen styling when images are loaded */
+.images-loaded {
+  background-color: #87CEEB; /* Sky blue background */
+  min-height: 100vh; /* Ensure it covers full height */
+  padding: 20px; /* Optional: Add some padding */
+}
+
+/* Animated title styling */
+.animated-title {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 30px; /* Adjusted position towards the top */
+  animation: bounceIn 2s ease-in-out; /* Adding a bounce animation */
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Dropdown customization */
+select {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.6); /* Blurry transparent background */
+  backdrop-filter: blur(10px); /* Adding blur effect */
+  border: 1px solid #ccc;
+  font-weight: bold; /* Bold text */
+  color: black;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Image grid styling */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Dog image styling */
+.dog-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Additional styling for the back button */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background-color: #f44336; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 10; /* Ensures button is on top */
+}
+
+.back-button:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
