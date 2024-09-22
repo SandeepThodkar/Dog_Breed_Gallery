@@ -1,75 +1,75 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Dog Breed Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dog Breed Gallery - This application provides functionality for a user to view images of their favourite dog breeds. A user is able to select one or more breeds and see an image gallery of the selected breed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Breed Selection**: Users can select a dog breed from a dropdown menu.
+- **Image Gallery**: Displays images of the selected dog breeds.
+- **Back Button**: Allows users to return to the breed selection screen easily.
+- **Responsive Design**: The gallery layout adapts to different screen sizes for a seamless user experience.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: Styling for the application, ensuring a visually appealing design.
+- **Dog API**: Fetching dog breeds and images from the Dog CEO API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SandeepThodkar/Dog_Breed_Gallery.git
+   cd Dog_Breed_Gallery
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the application:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Code Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **App.js**: The main application component that manages state and handles API calls.
+- **BreedSelector.js**: Component for selecting dog breeds, allowing multiple selections.
+- **ImageGallery.js**: Component for displaying the selected dog images in a grid layout.
+- **App.css**: Contains all styling for the application, including responsive design elements and animations.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. On the homepage, select one or more dog breeds from the dropdown menu.
+2. Click the "Show Images" button to fetch and display images of the selected breeds.
+3. Use the "Back" button to return to the breed selection.
 
-## Learn More
+## Example Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+(Include any relevant screenshots of your application here to showcase the UI and features.)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Additional Notes
 
-### Code Splitting
+- The application uses the Dog CEO API to fetch breed information and images dynamically.
+- The code is structured to maintain readability and best practices in React development.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+If you would like to contribute to this project, please fork the repository and submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Dog_Breed_Gallery
-Image gallery for all the types of dog breeds
->>>>>>> 4f7ef53bf12e00ded57cdf3055dc81921a26c414
+You can copy and paste this code directly into your README.md file!
