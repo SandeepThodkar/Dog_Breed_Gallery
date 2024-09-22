@@ -2,6 +2,17 @@
 
 Dog Breed Gallery - This application provides functionality for a user to view images of their favourite dog breeds. A user is able to select one or more breeds and see an image gallery of the selected breed.
 
+## This is the Homepage of the UI
+![Home Page](./src/images/Homepage.png)
+
+## This is the list of all the dog breeds in the dropdown
+![DropDown](./src/images/dropdownselection.png)
+
+## Selecting a dog breed and clicking on button
+![DropDown Selection](./src/images/selectingbreed.png)
+
+## This are all the images that are related to that breed
+![List of Images](./src/images/images.png)
 ## Features
 
 - **Breed Selection**: Users can select a dog breed from a dropdown menu.

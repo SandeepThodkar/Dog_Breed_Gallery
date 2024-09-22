@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import logo from './images/logo.webp'; // Import the logo
 
 const App = () => {
     const [selectedBreed, setSelectedBreed] = useState('');
@@ -34,6 +35,9 @@ const App = () => {
 
     return (
         <div className={`container ${images.length > 0 ? 'images-loaded' : ''}`}>
+            {/* Add the logo at the top right corner */}
+            <img src={logo} alt="Company Logo" className="logo" />
+
             {images.length === 0 ? (
                 <>
                     <h1 className="animated-title">Dog Breed Image Gallery</h1>

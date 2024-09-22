@@ -1,12 +1,12 @@
 /* General body styling */
 body {
-  margin: 0; /* Remove default margin */
+  margin: 0;
   padding: 0;
   background-image: url('./images/dog.jpg');
-  background-size: cover; /* Cover the entire area */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh; /* Ensures it takes at least the full viewport height */
+  min-height: 100vh;
   font-family: Arial, sans-serif;
 }
 
@@ -22,8 +22,23 @@ body {
 /* Full-screen styling when images are loaded */
 .images-loaded {
   background-color: #87CEEB; /* Sky blue background */
-  min-height: 100vh; /* Ensure it covers full height */
-  padding: 20px; /* Optional: Add some padding */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Logo styling for the top-right corner */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px; /* Adjust size as needed */
+  opacity: 0.5; /* Make it slightly transparent */
+  transition: opacity 0.3s ease;
+  z-index: 100; /* Ensure it appears above other elements */
+}
+
+.logo:hover {
+  opacity: 0.8; /* Increase visibility on hover */
 }
 
 /* Animated title styling */
@@ -32,8 +47,8 @@ body {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   font-size: 3rem;
   font-weight: bold;
-  margin-top: 30px; /* Adjusted position towards the top */
-  animation: bounceIn 2s ease-in-out; /* Adding a bounce animation */
+  margin-top: 30px;
+  animation: bounceIn 2s ease-in-out;
 }
 
 @keyframes bounceIn {
@@ -52,10 +67,10 @@ select {
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
-  background: rgba(255, 255, 255, 0.6); /* Blurry transparent background */
-  backdrop-filter: blur(10px); /* Adding blur effect */
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
   border: 1px solid #ccc;
-  font-weight: bold; /* Bold text */
+  font-weight: bold;
   color: black;
 }
 
@@ -91,21 +106,21 @@ button:hover {
   border-radius: 10px;
 }
 
-/* Additional styling for the back button */
+/* Back button styling */
 .back-button {
   position: absolute;
   top: 20px;
   left: 20px;
   padding: 10px 15px;
-  background-color: #f44336; /* Red background */
+  background-color: #f44336;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  z-index: 10; /* Ensures button is on top */
+  z-index: 10;
 }
 
 .back-button:hover {
-  background-color: #e53935; /* Darker red on hover */
+  background-color: #e53935;
 }
