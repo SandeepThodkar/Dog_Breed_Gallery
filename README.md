@@ -77,10 +77,3 @@ Make sure you have Node.js installed on your machine. You can download it from [
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
-```
-
-You can copy and paste this code directly into your README.md file!
